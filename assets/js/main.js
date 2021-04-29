@@ -1,6 +1,8 @@
 // 1. chiedi all’utente il cognome
 
 var userName = prompt("Quale è il tuo cognome?");
+
+var userName = userName.charAt(0).toUpperCase() + userName.slice(1);
 console.log(userName);
 
 // 2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
